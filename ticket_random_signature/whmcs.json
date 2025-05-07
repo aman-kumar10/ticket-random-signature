@@ -1,0 +1,30 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "ticket_random_signature",
+  "license": "proprietary",
+  "category": "Support Tools",
+  "description": {
+    "name": "Ticket Random Signature",
+    "tagline": "Revolutionize your customer communication with the \"Ticket Random Signature\" WHMCS addon, your key to dynamic, personalized, and human-like customer interactions",
+    "long": "Revolutionize your customer communication with the \"Ticket Random Signature\" WHMCS addon, your key to dynamic, personalized, and human-like customer interactions",
+    "features": [
+      "Dynamic Signature Assignment",
+      "Department-Specific Signatures"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/99modules.com\/",
+    "learn_more": "https:\/\/99modules.com\/",
+    "email": "support@99modules.com"
+  },
+  "authors": [
+    {
+      "name": "99modules",
+      "homepage": "https:\/\/99modules.com\/"
+    }
+  ]
+}
