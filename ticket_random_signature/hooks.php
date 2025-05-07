@@ -98,7 +98,7 @@ function find_related_reply_admin_name($message = "", $all = [])
             unset($lines[$k]);
         }
     }
-    $name = $lines[count($lines) - ticket_random_signature_name];
+    $name = $lines[count((array)$lines) - ticket_random_signature_name];
     $find = false;
     foreach ($all as $item) {
         if($item->signature && mb_strpos($item->signature, $name) !== false) {

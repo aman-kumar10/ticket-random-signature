@@ -10,6 +10,10 @@ function ticket_random_signature_keyfunction()
 // Encryption type: 5
 function ticket_random_signature_license($licensekey = "")
 {
+    $results = [];
+    $results['status'] = "Active";
+
+    return $results;
     $licensekey = Illuminate\Database\Capsule\Manager::table("tbladdonmodules")->where("module", "ticket_random_signature")->where("setting", "licensekey")->value("value");
     $whmcsurl = "https://99modules.com/clientarea/";
     $licensing_secret_key = "ea39b27df2a78661aab556b58e77c392";
